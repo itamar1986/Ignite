@@ -28,6 +28,7 @@ app.patch("/courses/:id", (request, response) => {
 
 app.delete("/courses/:id", (request, response) => {
   return response.json(["Curso 6", "Curso 2", "Curso 4"]);
+  /*return response.json(["Curso 6", "Curso 2", "Curso 4"]);*/
 });
 
 app.listen(3333);
