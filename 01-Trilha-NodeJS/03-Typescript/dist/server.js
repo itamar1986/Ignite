@@ -6,9 +6,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
 var routes_1 = require("./routes");
 var app = express_1.default();
-//app.get("/",(request, response) => {
-//return response.json({ message: "Hello World"})
-//});
 app.get("/", routes_1.createCourse);
-//app.listen(3333);
-app.listen(8080);
+app.listen(3333);
+//app.listen(8080);
