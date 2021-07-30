@@ -1,15 +1,13 @@
-describe("Criar categoria", () => {
-  it("Espero que 2 + 2 seja 4", () => {
-    const soma = 2 + 2;
-    const resultado = 4;
+import { CategoriesRepositoryInMemory } from "../../repositories/in-memory/CategoriesRepositoryInMemory";
+import { CreateCategoryUseCase } from "./CreateCategoryUseCase";
 
-    expect(soma).toBe(resultado);
-  });
+let createCategory: CreateCategoryUseCase;
+let categoriesRepositoryInMemory: CategoriesRepositoryInMemory;
 
-  it("Espero que 2 + 2 não seja 5", () => {
-    const soma = 2 + 2;
-    const resultado = 5;
+describe("Create Category", () => {
+  beforeEach(() => {});
 
-    expect(soma).not.toBe(resultado);
+  it("should be able to create a new category", () => {
+    const createCategory = new CreateCategoryUseCase();
   });
 });
