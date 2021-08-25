@@ -3,8 +3,10 @@
 }
 
 console.log(user.address?.street)*/
-import React from 'react';
 
-function App() {
+import React from 'react';
+import { App } from './App'
+
+/*function App() {
   return <h1>Hello World</h1>
-}
+}*/
