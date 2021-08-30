@@ -1,12 +1,4 @@
-/*const user = {
-  name: 'Itamar',
-}
+import { render } from 'react-dom';
+import { App } from './App';
 
-console.log(user.address?.street)*/
-
-import React from 'react';
-import { App } from './App'
-
-/*function App() {
-  return <h1>Hello World</h1>
-}*/
+render(<h1>Test</h1>, document.getElementById('root'))
